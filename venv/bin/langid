@@ -1,0 +1,10 @@
+#!/home/saad/src/language-identification-system/venv/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'langid==1.1.4.dev0','console_scripts','langid'
+__requires__ = 'langid==1.1.4.dev0'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('langid==1.1.4.dev0', 'console_scripts', 'langid')()
+    )
